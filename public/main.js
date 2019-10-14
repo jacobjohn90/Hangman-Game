@@ -26,7 +26,7 @@ var answerBox = [];
 var letterClicked = '';			
 hearts();
 area51();
-for (var i = 0; i < randomWords.length; i++) {	//loop through the length or randomWords and push '_ '
+for (let i = 0; i < randomWords.length; i++) {	//loop through the length or randomWords and push '_ '
 	answerBox.push('— ');
 }
 $('#emptyAnswerBox').append(answerBox);		
